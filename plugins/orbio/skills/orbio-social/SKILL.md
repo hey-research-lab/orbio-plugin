@@ -124,7 +124,7 @@ bursts, so spread posts through the day.
 
 | Argument | What it does | Where |
 | --- | --- | --- |
-| `media` | Up to 4 images or one GIF on X (10 elsewhere). Each an `https` URL or a `data:image/png;base64,...` URL | Every platform; video everywhere but X |
+| `media` | Up to 4 images, one GIF or one MP4 or MOV video on X (10 elsewhere). A GIF or a video goes alone on X. Each an `https` URL or a `data:image/png;base64,...` URL | Every platform |
 | `thread` | Follow-up posts after `text`, each replying to the one before | X, Threads, Bluesky |
 | `reply_to` | A post id or status URL to answer | X only |
 | `quote` | A post id or status URL to quote. No media with it | X only |
@@ -188,7 +188,7 @@ and `max_cost` bounds it like any other call.
 
 - a post to X costs about **0.0187 CREDIT**
 - a post to X with a link, with `allow_links: true`, costs about **0.2222 CREDIT**
-- each image or GIF on X adds another **0.0165**, because X meters the upload as a post
+- images, a GIF or a video add nothing on X, whatever the size of the file
 - each follow-up in an X thread adds **0.0165**, or 0.22 if it carries a link
 - links, media and threads are free on every other platform, which charges nothing per post
 
