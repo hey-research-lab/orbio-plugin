@@ -20,16 +20,17 @@ The plugin brings:
 
 - **The MCP server** at `www.orbio.so/api/mcp`, so every tool arrives with its
   price, its arguments and the shape of its answer. No wrapper code.
-- **Two skills.** `orbio-gateway` covers the key, the balance, what a call costs
+- **Three skills.** `orbio-gateway` covers the key, the balance, what a call costs
   before you make it, and what each failure means. `orbio-social` covers reading
-  X and publishing.
+  X and publishing. `orbio-media` covers images, video and characters on Higgsfield.
 - **`/orbio-costs`**, which prints the live catalogue and your balance.
 
 ## What you can do with it
 
 Call any model, read X (search, timelines, mentions, reply trees, profiles),
 search and scrape the web, read Robinhood Chain, scrape Instagram, TikTok and
-Reddit, and publish to social accounts.
+Reddit, publish to social accounts, and generate images, video shots, video edits and
+trained characters with Higgsfield.
 
 Every call takes `max_cost` in CREDIT and is refused before it runs if the
 quote is above it, so a mistaken `limit` costs nothing.

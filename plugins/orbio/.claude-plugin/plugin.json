@@ -1,13 +1,13 @@
 {
   "name": "orbio",
-  "description": "Connect your Orbio account for models, web search, social tools and on-chain reads, billed against one CREDIT balance.",
-  "version": "0.1.4",
+  "description": "Connect your Orbio account for models, web search, social tools, on-chain reads, and image and video generation, billed against one CREDIT balance.",
+  "version": "0.1.5",
   "author": {
     "name": "Orbio Labs",
     "url": "https://orbio.so"
   },
   "homepage": "https://orbio.so",
-  "repository": "https://github.com/orbioso/orbio-plugin",
+  "repository": "https://github.com/orbioso/orbio",
   "license": "MIT",
   "keywords": [
     "ai",

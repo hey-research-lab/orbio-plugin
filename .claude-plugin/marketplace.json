@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Connect your Orbio account for models and tools, billed against the same CREDIT balance.",
-    "version": "0.1.4"
+    "version": "0.1.5"
   },
   "plugins": [
     {
       "name": "orbio",
       "source": "./plugins/orbio",
-      "description": "Connect your Orbio account for models, web search, social tools and on-chain reads, billed against one CREDIT balance."
+      "description": "Connect your Orbio account for models, web search, social tools, on-chain reads, and image and video generation, billed against one CREDIT balance."
     }
   ]
 }
