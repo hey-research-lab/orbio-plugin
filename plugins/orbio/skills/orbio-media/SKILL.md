@@ -51,7 +51,7 @@ so the hold is the exact price.
 Any `images` field takes https URLs or base64 `data:` URLs of a JPEG, PNG or WebP, so a
 photo on disk can be sent inline. A whole call is limited to about 4 MB over the API and
 1 MB over MCP, so send small images inline and host larger ones. A source video for
-`media.motion` must be an https URL; Orbio copies it, up to 200 MB.
+`media.motion` must be an https URL to a regular MP4; Orbio copies it, up to 100 MB.
 
 ## Posting what you made
 
